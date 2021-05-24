@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T05:12:59.693Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) SFive/73.0 Chrome/73.0.3683.104 Safari/537.36" etag="KFymB74g4tmkhUgSAy-y" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T06:36:33.722Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) SFive/73.0 Chrome/73.0.3683.104 Safari/537.36" etag="6jX1vjGSiyY0PufTIm6Z" version="13.7.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="2025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="jbT7SXT4_afKjvwqRheY-57" value="Event Type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jbT7SXT4_afKjvwqRheY-57" value="Event Channel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="10" y="120" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jbT7SXT4_afKjvwqRheY-0" value="Event Manager&lt;br&gt;&lt;br&gt;manage listeners, subscribe event and push events (with message) to consumers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -134,10 +134,10 @@
         <mxCell id="jbT7SXT4_afKjvwqRheY-56" value="Event-Driven Architecture In PcFlow Application" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="10" y="-60" width="270" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jbT7SXT4_afKjvwqRheY-58" value="Event Type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jbT7SXT4_afKjvwqRheY-58" value="Event&amp;nbsp; Channel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="120" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jbT7SXT4_afKjvwqRheY-59" value="Event Type" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jbT7SXT4_afKjvwqRheY-59" value="Event Channel" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="570" y="120" width="205" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jbT7SXT4_afKjvwqRheY-61" value="" style="endArrow=classic;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
