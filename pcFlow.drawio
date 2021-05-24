@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T04:46:06.065Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) SFive/73.0 Chrome/73.0.3683.104 Safari/537.36" etag="p3j8M5btMp8WPxD-Umi8" version="13.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-24T05:12:59.693Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) SFive/73.0 Chrome/73.0.3683.104 Safari/537.36" etag="KFymB74g4tmkhUgSAy-y" version="13.7.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="2025" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="jbT7SXT4_afKjvwqRheY-0" value="Event Manager&lt;br&gt;&lt;br&gt;manage listeners, subscribe event and push events (with message) to consumers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="130" width="550" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jbT7SXT4_afKjvwqRheY-3" value="ConcurrentQueueEventListener&lt;br&gt;[ Roundrobin enqueue ]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="jbT7SXT4_afKjvwqRheY-3" value="ConcurrentQueueEventListener&lt;br&gt;[ Round robin delegate]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="280" y="400" width="240" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jbT7SXT4_afKjvwqRheY-4" value="SingleQueueEventListener&lt;br&gt;(implement EventListener)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -82,14 +82,14 @@
         <mxCell id="jbT7SXT4_afKjvwqRheY-39" value="implement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="690" y="360" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jbT7SXT4_afKjvwqRheY-40" value="&amp;nbsp;enqueue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="170" y="475" width="70" height="20" as="geometry" />
+        <mxCell id="jbT7SXT4_afKjvwqRheY-40" value="delegate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="175" y="475" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jbT7SXT4_afKjvwqRheY-41" value="&amp;nbsp;enqueue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="334" y="474" width="70" height="20" as="geometry" />
+        <mxCell id="jbT7SXT4_afKjvwqRheY-41" value="delegate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="339" y="474" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jbT7SXT4_afKjvwqRheY-42" value="&amp;nbsp;enqueue" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="545" y="475" width="70" height="20" as="geometry" />
+        <mxCell id="jbT7SXT4_afKjvwqRheY-42" value="delegate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="553" y="474" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jbT7SXT4_afKjvwqRheY-43" value="implement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="409" y="360" width="70" height="20" as="geometry" />
