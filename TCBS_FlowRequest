@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T08:54:12.698Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="2YgLLsADqBHbyg5HDal9" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T08:55:17.345Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="cFbRc98X-hfKFyQzJA7o" version="18.0.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -15,7 +15,7 @@
             <mxPoint x="-15" y="70" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":GatewayService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value=":DataPower" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="80" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
@@ -38,7 +38,7 @@
             <mxPoint x="404" y="160.00000000000045" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TE_b7iWjVVc4Vw9pbgZg-1" value=":OpenAPI Gateway" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="TE_b7iWjVVc4Vw9pbgZg-1" value="OpenGW" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="80" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="TE_b7iWjVVc4Vw9pbgZg-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="TE_b7iWjVVc4Vw9pbgZg-1">
