@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T10:35:32.161Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" version="18.0.2" etag="j-Om96a4g6YMHpo-GtPv" type="github"><diagram id="dRCv-tL5O4tPJWmc85w4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-13T11:38:32.173Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="-LiSCjPVhsg-1o7n4C84" version="18.0.2" type="github">
+  <diagram id="dRCv-tL5O4tPJWmc85w4" name="Page-1">
+    <mxGraphModel dx="1422" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-1" value="Data Power" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="280" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="l1OSS5GLCb2rhAAgvlBp-1" target="l1OSS5GLCb2rhAAgvlBp-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-4" value="JWT" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="284" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-5" value="subscription, scope" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="161" y="309" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-6" value="Policy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301" y="320" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-7" value="Monitor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="433" y="320" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-8" value="Open GW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="170" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-9" value="Core Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="160" width="120" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="309" as="sourcePoint" />
+            <mxPoint x="680" y="309" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-12" value="&lt;span style=&quot;&quot;&gt;Get subscription plan, scope from JWT&lt;br&gt;&amp;nbsp;then validate&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="315" y="230" width="220" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
