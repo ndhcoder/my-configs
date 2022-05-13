@@ -1,1 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T09:56:39.674Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" version="18.0.2" etag="YQo_5WAfZj4EGDnPccyH" type="github"><diagram id="VFFPcNDNAmM08x5ITCcS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-13T10:05:33.049Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="n5f4ik5dEvo10-2A8U9r" version="18.0.2" type="github">
+  <diagram id="VFFPcNDNAmM08x5ITCcS" name="Page-1">
+    <mxGraphModel dx="1422" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wyI_ECBuoFf-G0IrrBjZ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="200" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="wyI_ECBuoFf-G0IrrBjZ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="200" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="wyI_ECBuoFf-G0IrrBjZ-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="200" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="wyI_ECBuoFf-G0IrrBjZ-11" value="&lt;h1&gt;Free&lt;/h1&gt;&lt;p&gt;- Limit Bandwidth&lt;/p&gt;&lt;p&gt;- Limit Rate API call&lt;/p&gt;&lt;p&gt;- Aggregation Data for 01 month&lt;/p&gt;&lt;p&gt;- Limit Indicator&amp;nbsp;&lt;/p&gt;&lt;p&gt;- ....&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="180" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="wyI_ECBuoFf-G0IrrBjZ-12" value="&lt;h1&gt;Premium&lt;/h1&gt;&lt;p&gt;- Limit Bandwidth&lt;/p&gt;&lt;p&gt;- Limit Rate API call&lt;/p&gt;&lt;p&gt;- Aggregation Data for 01 month&lt;/p&gt;&lt;p&gt;- Limit Indicator&amp;nbsp;&lt;/p&gt;&lt;p&gt;- ....&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="171" width="180" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="wyI_ECBuoFf-G0IrrBjZ-13" value="&lt;h1&gt;Professional&lt;/h1&gt;&lt;p&gt;- Limit Bandwidth&lt;/p&gt;&lt;p&gt;- Limit Rate API call&lt;/p&gt;&lt;p&gt;- Aggregation Data for 01 month&lt;/p&gt;&lt;p&gt;- Limit Indicator&amp;nbsp;&lt;/p&gt;&lt;p&gt;- ....&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="171" width="180" height="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
