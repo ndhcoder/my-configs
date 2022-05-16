@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T11:38:32.173Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="-LiSCjPVhsg-1o7n4C84" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-16T02:50:32.628Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="0qTkkuDcwACew5Ftt1NS" version="18.0.2" type="github">
   <diagram id="dRCv-tL5O4tPJWmc85w4" name="Page-1">
-    <mxGraphModel dx="1422" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,6 +42,27 @@
         </mxCell>
         <mxCell id="l1OSS5GLCb2rhAAgvlBp-12" value="&lt;span style=&quot;&quot;&gt;Get subscription plan, scope from JWT&lt;br&gt;&amp;nbsp;then validate&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="315" y="230" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-15" value="cache" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="400" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-16" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.nsx_dashboard;" vertex="1" parent="1">
+          <mxGeometry x="468.64" y="397" width="38.71" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-17" value="Remote DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="395" y="470" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="l1OSS5GLCb2rhAAgvlBp-6" target="l1OSS5GLCb2rhAAgvlBp-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="430" as="sourcePoint" />
+            <mxPoint x="340" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l1OSS5GLCb2rhAAgvlBp-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="l1OSS5GLCb2rhAAgvlBp-17" target="l1OSS5GLCb2rhAAgvlBp-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="440" as="sourcePoint" />
+            <mxPoint x="435" y="490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
