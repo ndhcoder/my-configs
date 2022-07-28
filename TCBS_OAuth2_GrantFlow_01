@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T12:05:26.137Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="C19BdqgWlehQ-G3sADAR" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-28T12:05:37.346Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="sOCWFSNRvFOJ3KhLqO4l" version="20.0.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1975" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
           <mxGeometry x="300" y="80" width="100" height="680" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="480" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="560" as="geometry" />
         </mxCell>
         <mxCell id="3mbLNqxc07Hf8Sx-IGNF-9" value="7. JWT" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="0.04" relative="1" as="geometry">
@@ -67,7 +67,7 @@
           <mxGeometry x="560" y="80" width="100" height="680" as="geometry" />
         </mxCell>
         <mxCell id="3mbLNqxc07Hf8Sx-IGNF-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="3mbLNqxc07Hf8Sx-IGNF-1">
-          <mxGeometry x="44" y="80" width="10" height="480" as="geometry" />
+          <mxGeometry x="44" y="80" width="10" height="560" as="geometry" />
         </mxCell>
         <mxCell id="3mbLNqxc07Hf8Sx-IGNF-14" value="10. Update Sign Public Key Success" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="3mbLNqxc07Hf8Sx-IGNF-1">
           <mxGeometry x="0.04" relative="1" as="geometry">
