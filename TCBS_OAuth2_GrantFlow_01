@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T06:48:51.380Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="pU5Cv0EOKyQjPUOK1BVI" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T06:50:22.999Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36" etag="nKyKivY4HAItCXPRlh1Q" version="20.2.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="2200" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":EndUser&#xa;(Client App)" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="55" y="80" width="100" height="520" as="geometry" />
+          <mxGeometry x="5" y="80" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="410" as="geometry" />
@@ -21,7 +21,7 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="3mbLNqxc07Hf8Sx-IGNF-9" value="7. JWT" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" edge="1">
+        <mxCell id="3mbLNqxc07Hf8Sx-IGNF-9" value="7. JWT" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" edge="1" source="3mbLNqxc07Hf8Sx-IGNF-1">
           <mxGeometry x="0.04" relative="1" as="geometry">
             <mxPoint x="304" y="320" as="sourcePoint" />
             <mxPoint x="54" y="320" as="targetPoint" />
@@ -34,7 +34,7 @@
             <mxPoint x="275" y="160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="3. Redirect to login/authorization page " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-9" value="3. Redirect to login/authorization page " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.2;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="3nuBFxr9cyL0pnOWT2aG-2" source="3mbLNqxc07Hf8Sx-IGNF-1">
           <mxGeometry x="-0.4347" relative="1" as="geometry">
             <mxPoint x="608.5" y="240" as="sourcePoint" />
             <mxPoint x="109" y="240" as="targetPoint" />
@@ -45,41 +45,41 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3mbLNqxc07Hf8Sx-IGNF-1" value=":TCBS" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
-          <mxGeometry x="560" y="80" width="100" height="520" as="geometry" />
+          <mxGeometry x="630" y="80" width="100" height="520" as="geometry" />
         </mxCell>
         <mxCell id="3mbLNqxc07Hf8Sx-IGNF-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3mbLNqxc07Hf8Sx-IGNF-1" vertex="1">
           <mxGeometry x="44" y="80" width="10" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="3mbLNqxc07Hf8Sx-IGNF-3" value="2. Authorization Code Request  + Code Challenge" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.25;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="3mbLNqxc07Hf8Sx-IGNF-3" value="2. Authorization Code Request  + PKCE Code Challenge" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1" target="3mbLNqxc07Hf8Sx-IGNF-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="355" y="201" as="sourcePoint" />
             <mxPoint x="605" y="201" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3mbLNqxc07Hf8Sx-IGNF-6" value="4. Authenticate &amp; Consent" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
+        <mxCell id="3mbLNqxc07Hf8Sx-IGNF-6" value="4. Authenticate &amp; Consent" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.1;exitY=0.317;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="3mbLNqxc07Hf8Sx-IGNF-1" source="3nuBFxr9cyL0pnOWT2aG-2">
           <mxGeometry x="-0.5785" relative="1" as="geometry">
             <mxPoint x="110" y="278.03999999999996" as="sourcePoint" />
             <mxPoint x="609.5" y="278.03999999999996" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3mbLNqxc07Hf8Sx-IGNF-7" value="5. Authorization Code" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="3mbLNqxc07Hf8Sx-IGNF-7" value="5. Authorization Code" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry x="-0.0359" relative="1" as="geometry">
-            <mxPoint x="600" y="320" as="sourcePoint" />
-            <mxPoint x="360" y="320" as="targetPoint" />
+            <mxPoint x="679.5" y="320" as="sourcePoint" />
+            <mxPoint x="355" y="320" as="targetPoint" />
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3mbLNqxc07Hf8Sx-IGNF-8" value="6. Authorization Code + Code Verifier + X-API-KEY on 3rd endpoint " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1">
+        <mxCell id="3mbLNqxc07Hf8Sx-IGNF-8" value="6. Authorization Code + PKCE Code Verifier + X-API-KEY on 3rd endpoint " style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" parent="1" edge="1" target="3mbLNqxc07Hf8Sx-IGNF-1">
           <mxGeometry x="-0.0257" relative="1" as="geometry">
             <mxPoint x="360" y="361" as="sourcePoint" />
             <mxPoint x="603" y="361" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3mbLNqxc07Hf8Sx-IGNF-15" value="Request TCBS with JWT &#xa;+ sign request using sign private key&#xa;8. + encrypt using TCBS public key" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.872;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.1;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="3mbLNqxc07Hf8Sx-IGNF-15" value="Request TCBS with JWT &#xa;+ sign request using sign private key&#xa;8. + encrypt using TCBS public key" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1;exitY=0.872;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" target="3mbLNqxc07Hf8Sx-IGNF-1">
           <mxGeometry x="-0.0177" relative="1" as="geometry">
             <mxPoint x="355" y="480.9200000000001" as="sourcePoint" />
             <mxPoint x="603" y="480" as="targetPoint" />
